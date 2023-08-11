@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="error_no_yt_link">Error in Link\n</string>
+    <string name="title_activity_main_compose">MainActivityCompose</string>
+</resources>
