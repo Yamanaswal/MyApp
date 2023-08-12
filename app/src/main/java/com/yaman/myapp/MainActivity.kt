@@ -7,6 +7,7 @@ import android.view.View
 import com.yaman.myapp.coroutines_tutorials.MainActivityCoroutines
 import com.yaman.myapp.coroutines_tutorials.MainActivityCoroutinesTwo
 import com.yaman.myapp.coroutines_tutorials.MainActivityThreads
+import com.yaman.myapp.firebase.chat.LoginFirebaseActivity
 import com.yaman.myapp.rx_java_tutorials.MainActivityRxJava
 
 class MainActivity : AppCompatActivity() {
@@ -28,8 +29,11 @@ class MainActivity : AppCompatActivity() {
         // startActivity(Intent(this, MainActivityCoroutinesTwo::class.java))
 
         // RxJava & Android
-        startActivity(Intent(this, MainActivityRxJava::class.java))
+        // startActivity(Intent(this, MainActivityRxJava::class.java))
 
+
+        // Firebase
+        startActivity(Intent(this,LoginFirebaseActivity::class.java))
 
         finish()
     }
