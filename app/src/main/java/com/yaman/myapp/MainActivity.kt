@@ -1,14 +1,10 @@
 package com.yaman.myapp
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import com.yaman.myapp.coroutines_tutorials.MainActivityCoroutines
-import com.yaman.myapp.coroutines_tutorials.MainActivityCoroutinesTwo
-import com.yaman.myapp.coroutines_tutorials.MainActivityThreads
+import androidx.appcompat.app.AppCompatActivity
 import com.yaman.myapp.firebase.chat.LoginFirebaseActivity
-import com.yaman.myapp.rx_java_tutorials.MainActivityRxJava
+import com.yaman.myapp.utils.Helper
 
 class MainActivity : AppCompatActivity() {
 
@@ -31,9 +27,10 @@ class MainActivity : AppCompatActivity() {
         // RxJava & Android
         // startActivity(Intent(this, MainActivityRxJava::class.java))
 
+//        Helper.printHashKey(this)
 
         // Firebase
-        startActivity(Intent(this,LoginFirebaseActivity::class.java))
+        startActivity(Intent(this, LoginFirebaseActivity::class.java))
 
         finish()
     }

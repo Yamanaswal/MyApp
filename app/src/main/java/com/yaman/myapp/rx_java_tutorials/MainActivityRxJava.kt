@@ -101,11 +101,4 @@ class MainActivityRxJava : AppCompatActivity() {
         })*/
     }
 
-    fun handleResponse(){
-
-    }
-
-    fun handleError(){
-
-    }
 }
